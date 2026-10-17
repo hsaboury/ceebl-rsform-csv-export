@@ -6,11 +6,12 @@ The project follows the principles of [Keep a Changelog](https://keepachangelog.
 
 ## [Unreleased]
 
+
+## [1.1.0] - 2026-10-17
+
 ### Documentation
 
-- Prepare project documentation for the first public release.
-
-## [1.1.0] - Unreleased
+- Add README, changelog, and GPL-2.0-or-later licensing information.
 
 ### Added
 

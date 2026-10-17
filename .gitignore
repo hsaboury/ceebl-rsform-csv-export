@@ -1,0 +1,28 @@
+﻿# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Build artifacts
+/dist/
+/build/
+*.zip
+
+# Logs and temporary files
+*.log
+*.tmp

@@ -1,11 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="plugin" group="system" method="upgrade">
-  <name>System - Ceebl CSV Probe</name>
-  <version>1.0.0</version>
-  <description>RSForm directory CSV Excel compatibility, Management group server-side download authorization, and export button visibility.</description>
-  <namespace path="src">Ceebl\Plugin\System\Csvprobe</namespace>
-  <files>
-    <folder plugin="csvprobe">services</folder>
-    <folder>src</folder>
-  </files>
+    <name>System - Ceebl RSForm CSV Export</name>
+    <version>1.1.0-dev</version>
+    <description>Excel UTF-8 CSV compatibility and configurable access control for RSForm! Pro directory exports.</description>
+
+    <namespace path="src">Ceebl\Plugin\System\Csvprobe</namespace>
+
+    <files>
+        <folder plugin="csvprobe">services</folder>
+        <folder>src</folder>
+    </files>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic" label="Plugin Settings">
+
+                <field
+                    name="enable_encoding_fix"
+                    type="radio"
+                    label="Enable Excel UTF-8 Fix"
+                    description="Improve Excel compatibility for UTF-8 CSV exports."
+                    default="1"
+                    class="btn-group">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+
+                <field
+                    name="restrict_downloads"
+                    type="radio"
+                    label="Restrict CSV Downloads"
+                    description="Allow CSV downloads only for users in selected Joomla groups."
+                    default="0"
+                    class="btn-group">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+
+                <field
+                    name="allowed_groups"
+                    type="usergrouplist"
+                    label="Allowed User Groups"
+                    description="Select groups allowed to download CSV files when restrictions are enabled. No selected groups means no access."
+                    multiple="true"
+                    default=""
+                    showon="restrict_downloads:1"
+                />
+
+                <field
+                    name="hide_export_buttons"
+                    type="radio"
+                    label="Hide Export Buttons"
+                    description="Hide CSV export buttons from users without download permission when restrictions are enabled."
+                    default="1"
+                    class="btn-group">
+                    showon="restrict_downloads:1">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+
+            </fieldset>
+        </fields>
+    </config>
 </extension>

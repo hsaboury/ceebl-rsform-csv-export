@@ -1,5 +1,10 @@
 <?php
-/** @package Ceebl RSForm CSV Export */
+/**
+ * Ceebl RSForm CSV Export
+ *
+ * Copyright (C) 2026 Ceebl.
+ * SPDX-License-Identifier: GPL-2.0-or-later
+ */
 
 namespace Ceebl\Plugin\System\Csvprobe\Extension;
 

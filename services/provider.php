@@ -1,5 +1,10 @@
 <?php
-/** @package Ceebl CSV Probe */
+/**
+ * Ceebl RSForm CSV Export
+ *
+ * Copyright (C) 2026 Ceebl.
+ * SPDX-License-Identifier: GPL-2.0-or-later
+ */
 defined('_JEXEC') or die;
 
 use Joomla\CMS\Extension\PluginInterface;

@@ -6,6 +6,19 @@ The project follows the principles of [Keep a Changelog](https://keepachangelog.
 
 ## [Unreleased]
 
+## [1.1.1] - 2026-10-18
+
+### Added
+
+- Add English and Persian (fa-IR) localization for plugin settings.
+- Add localized inline help descriptions for all configuration fields.
+- Add localized plugin name and description.
+
+### Changed
+
+- Replace hardcoded configuration labels and descriptions with Joomla language constants.
+- Package language files within the plugin for Joomla 6 compatibility.
+- Use Joomla's built-in Toggle Inline Help functionality without custom JavaScript or CSS.
 
 ## [1.1.0] - 2026-10-17
 

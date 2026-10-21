@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="plugin" group="system" method="upgrade">
     <name>PLG_SYSTEM_CSVPROBE</name>
-    <version>1.1.1</version>
+    <author>Joomlog</author>
+    <authorUrl>https://joomlog.ir</authorUrl>
+    <copyright>Copyright (C) 2026 Joomlog.</copyright>
+    <version>1.2.0</version>
     <license>GNU General Public License version 2 or later</license>
     <description>PLG_SYSTEM_CSVPROBE_DESCRIPTION</description>
 

@@ -1,8 +1,8 @@
 <?php
 /**
- * Ceebl RSForm CSV Export
+ * Joomlog RSForm CSV Export
  *
- * Copyright (C) 2026 Ceebl.
+ * Copyright (C) 2026 Joomlog.
  * SPDX-License-Identifier: GPL-2.0-or-later
  */
 defined('_JEXEC') or die;

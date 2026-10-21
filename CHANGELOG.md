@@ -1,10 +1,20 @@
 # Changelog
 
-All notable changes to Ceebl RSForm CSV Export will be documented in this file.
+All notable changes to Joomlog RSForm CSV Export will be documented in this file.
 
 The project follows the principles of [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and intends to use [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
+
+## [1.2.0] - 2026-10-21
+
+### Changed
+
+- Rebrand the plugin from Ceebl RSForm CSV Export to Joomlog RSForm CSV Export.
+- Update English and Persian plugin display names.
+- Update plugin metadata to identify Joomlog as the publisher.
+- Update source file headers and project documentation to reflect the Joomlog brand.
+- Preserve the existing Joomla plugin element (`csvprobe`) and PHP namespace for backward compatibility.
 
 ## [1.1.1] - 2026-10-18
 
